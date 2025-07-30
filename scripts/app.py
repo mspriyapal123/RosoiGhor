@@ -26,3 +26,8 @@ if location:
     for food in foods:
         st.write(f"- {food}")
 
+if location.lower() == "madhyamgram":
+    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pani_Puri_Golgappa.jpg/320px-Pani_Puri_Golgappa.jpg", caption="Phuchka")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/9/92/Indian_Chowmein.jpg", caption="Chowmein")
+
+
