@@ -26,8 +26,10 @@ if location:
     for food in foods:
         st.write(f"- {food}")
 
+# Add sample images for Madhyamgram
 if location.lower() == "madhyamgram":
-    st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pani_Puri_Golgappa.jpg/320px-Pani_Puri_Golgappa.jpg", caption="Phuchka")
-    st.image("https://upload.wikimedia.org/wikipedia/commons/9/92/Indian_Chowmein.jpg", caption="Chowmein")
+    st.image("https://upload.wikimedia.org/wikipedia/commons/f/f2/Pani_Puri_Golgappa.jpg", caption="Phuchka", width=300)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/3/3a/Indian_Chowmein.jpg", caption="Chowmein", width=300)
+    st.image("https://upload.wikimedia.org/wikipedia/commons/6/6f/Momo_nepal.jpg", caption="Momos", width=300)
 
 
